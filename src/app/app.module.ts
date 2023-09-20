@@ -8,6 +8,7 @@ import { GALERIAComponent } from './COMPONENTE/PAGES/GALERIA/galeria.component';
 import { INICIOComponent } from './COMPONENTE/PAGES/INICIO/inicio.component';
 import { MAPAComponent } from './COMPONENTE/PAGES/MAPA/mapa.component';
 import { FooterComponent } from './COMPONENTE/footer/footer.component';
+import { DatosComponent } from './COMPONENTE/PAGES/datos/datos.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FooterComponent } from './COMPONENTE/footer/footer.component';
     NAVBARComponent,
     GALERIAComponent,
     INICIOComponent,
+    DatosComponent,
     MAPAComponent,
     FooterComponent
   ],
