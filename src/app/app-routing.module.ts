@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'Datos', component: DatosComponent },
   {path:'Mapa', component: MAPAComponent},
   {path: 'Galeria', component: GALERIAComponent},
-  {path: '**', component: GALERIAComponent}
+  {path: '**', component: INICIOComponent}
 ];
 
 @NgModule({
