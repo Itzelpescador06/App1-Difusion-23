@@ -1,1 +1,21 @@
-<p>datos works!</p>
+
+  <table class="table" style="width: 80%; margin: 2% 10% 0 10%;">
+    <thead>
+      <th scope="col">ID</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Latitud</th>
+      <th scope="col">Longitud</th>
+      <th scope="col">Detalle</th>
+    </thead>
+    <tbody *ngFor="let item of CafeteriasList">
+      <tr>
+        <th scope="row">{{item.ID}}</th>
+        <td>{{item.Name}}</td>
+        <td>{{item.Lat}}</td>
+        <td>{{item.Long}}</td>
+      </tr>
+
+    </tbody>
+
+  </table>
+

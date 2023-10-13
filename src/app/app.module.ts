@@ -10,6 +10,8 @@ import { MAPAComponent } from './COMPONENTE/PAGES/MAPA/mapa.component';
 import { FooterComponent } from './COMPONENTE/footer/footer.component';
 import { DatosComponent } from './COMPONENTE/PAGES/datos/datos.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,7 @@ import { DatosComponent } from './COMPONENTE/PAGES/datos/datos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
