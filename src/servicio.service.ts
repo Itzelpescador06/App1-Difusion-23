@@ -22,4 +22,14 @@ export class ServicioService{
 
     }
 
+    /*GetById(Id:String){
+        return new Observable(observer =>{
+            this.get().subscribe((result:any[])=>{
+                const filtro = result.filter(item =>
+                    item.id === Id)
+            return observer.next(filtro[0]);
+            })
+        })
+    }*/
+
 }

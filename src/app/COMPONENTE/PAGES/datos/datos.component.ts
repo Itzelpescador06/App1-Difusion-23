@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './datos.component.html',
   styleUrls: ['./datos.component.css']
 })
+
 export class DatosComponent {
 
   CafeteriasList: any[]=[];
@@ -16,7 +17,13 @@ export class DatosComponent {
     this.SVC.get().subscribe((result:any)=>{
       this.CafeteriasList=result
     })
+  
 
+  }
+
+  Detalle (Id: String){
+    this.router.navigate(['Id', Id]);
+    console.log(Id)
   }
 
 }
