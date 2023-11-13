@@ -12,7 +12,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root'
 })
 export class ServicioService{
-    URL= "assets/Datos/Starcbucks.json";
+    URL= "localhost/BACKEND/getAll.php";
 
     constructor(private http:HttpClient){
 

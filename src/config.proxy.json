@@ -1,0 +1,10 @@
+{
+    "/posts": {
+      "target": "http://localhost/BACKEND/getAll.php",
+      "secure": true,
+      "pathRewrite": {
+      "^/posts": ""
+    },
+      "changeOrigin": true
+    }
+  }

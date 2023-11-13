@@ -16,6 +16,7 @@ export class DatosComponent {
   constructor(private SVC:ServicioService, private router:Router){
     this.SVC.get().subscribe((result:any)=>{
       this.CafeteriasList=result
+      console.log(result)
     })
   
 
